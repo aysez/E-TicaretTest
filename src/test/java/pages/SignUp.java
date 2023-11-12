@@ -5,7 +5,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class SignUp {
 
-    @FindBy(xpath="//a[@id='signin2']")
+//    @FindBy(xpath= "//a[contains(.,'Phones')]")
+//    public WebElement signUpAnaSayfaButonu;
+
+    @FindBy(xpath= "//a[text()='Sign up']")
     public WebElement signUpAnaSayfaButonu;
 
     @FindBy(xpath="//input[@id='sign-username']")
