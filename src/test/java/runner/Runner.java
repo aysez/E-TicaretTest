@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
                 "rerun:report/failed_scenarios.txt",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome = true,
-        features = "src/test/resources/features",
-        glue = {"stepdefinitions.uitesting", "hooks"},
-        tags = "@smoke",
+        features = "src/test/resources/features/uiTesting",
+        glue = {"stepdefs", "hooks"},
+        tags = "@SignUp",
         dryRun = false
 
 )
